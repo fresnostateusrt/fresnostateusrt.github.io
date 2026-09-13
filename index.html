@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fresno State USRT</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="USRT" />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrap header-inner">
+                <a class="brand" href="#top">
+                    <!-- Fixed backslash path to standard web forward slashes -->
+                    <img
+                        class="brand-logo"
+                        src="./logos/USRT_LOGO_Black_Font_Transparent.png"
+                        alt="USRT Fresno State Logo"
+                    />
+                    <span class="brand-text">USRT<em>Fresno State</em></span>
+                </a>
+
+                <button
+                    class="nav-toggle"
+                    id="navToggle"
+                    aria-expanded="false"
+                    aria-controls="primaryNav"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                    <span class="sr-only">Menu</span>
+                </button>
+
+                <nav class="primary-nav" id="primaryNav">
+                    <a href="#about">About</a>
+                    <a href="#people">People</a>
+                    <a href="#competitions">Competitions</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#kits">Kits</a>
+                    <a href="#contact" class="nav-cta">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="top">
+            <!-- ================= HERO ================= -->
+            <section class="hero">
+                <div class="wrap hero-inner">
+                    <div class="hero-copy">
+                        <h1>
+                            Building autonomous drones and rovers at Fresno
+                            State
+                        </h1>
+                        <p class="hero-sub">
+                            The Unmanned Systems Research Team is Fresno State's
+                            premier team working on autonomous drones and ground
+                            rovers - designed, coded, and field-tested by
+                            students from Science, Technology, Engineering, and
+                            Mathematics.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary"
+                                >Join the team</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= ABOUT ================= -->
+            <section id="about" class="section section-about">
+                <div class="wrap about-grid">
+                    <div class="about-copy">
+                        <h2>About the team</h2>
+                        <p>
+                            USRT is a student-led engineering and research club
+                            at Fresno State, dedicated to designing, building,
+                            and testing autonomous systems and robotics - from
+                            quadcopters to a full-size self-driving golf cart.
+                        </p>
+                        <p>
+                            We're open to any Fresno State student curious about
+                            autonomous systems, regardless of major or
+                            experience level. Members write flight code, machine
+                            rover chassis, solder flight controllers, and take
+                            builds out to solve real-world problems.
+                        </p>
+                    </div>
+
+                    <aside class="spec-sheet" aria-label="Team specifications">
+                        <div class="spec-row">
+                            <span class="spec-key">Home dept.</span>
+                            <span class="spec-val"
+                                >Lyles College of Engineering</span
+                            >
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-key">Platforms</span>
+                            <span class="spec-val"
+                                >UAVs (drones) &middot; UGVs (rovers)</span
+                            >
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-key">Focus</span>
+                            <span class="spec-val">Autonomous navigation </span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-key">Shop time</span>
+                            <span class="spec-val">TBD</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-key">Open to</span>
+                            <span class="spec-val"
+                                >All majors, all skill levels</span
+                            >
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <!-- ================= PEOPLE ================= -->
+            <section id="people" class="section section-people">
+                <div class="wrap">
+                    <div class="section-head">
+                        <h2>People</h2>
+                    </div>
+
+                    <ul class="crew-list">
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >PM</span
+                            >
+                            <span class="crew-name">Professor Moore</span>
+                            <span class="crew-role">Advisor</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >RM</span
+                            >
+                            <span class="crew-name">Rob Mavis</span>
+                            <span class="crew-role">Advisor</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >V</span
+                            >
+                            <span class="crew-name">Viso</span>
+                            <span class="crew-role">President</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >A</span
+                            >
+                            <span class="crew-name">Anu</span>
+                            <span class="crew-role">Secretary</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >J</span
+                            >
+                            <span class="crew-name">Jonathan</span>
+                            <span class="crew-role">Vice President</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >V</span
+                            >
+                            <span class="crew-name">Vick</span>
+                            <span class="crew-role">Treasurer</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >B</span
+                            >
+                            <span class="crew-name">Brianna</span>
+                            <span class="crew-role">Media / Marketing</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >E</span
+                            >
+                            <span class="crew-name">Ethan</span>
+                            <span class="crew-role">Tech Operator</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >M</span
+                            >
+                            <span class="crew-name">Miguel</span>
+                            <span class="crew-role">Event Logistics</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >J</span
+                            >
+                            <span class="crew-name">Joseph</span>
+                            <span class="crew-role">Recruiter</span>
+                        </li>
+                        <li class="crew-card">
+                            <span class="crew-avatar" aria-hidden="true"
+                                >L</span
+                            >
+                            <span class="crew-name">Luis</span>
+                            <span class="crew-role">Recruiter</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ================= COMPETITIONS ================= -->
+            <section id="competitions" class="section section-competitions">
+                <div class="wrap">
+                    <div class="section-head">
+                        <h2>Competitions</h2>
+                        <p>
+                            Where our builds get tested against everyone else's.
+                        </p>
+                    </div>
+
+                    <ol class="ledger">
+                        <li class="ledger-row">
+                            <span class="ledger-icon" aria-hidden="true">
+                                <i class="fa-solid fa-trophy"></i>
+                            </span>
+                            <div class="ledger-body">
+                                <h3>
+                                    C-UASC - California Unmanned Aerial Systems
+                                    Competition
+                                </h3>
+                                <p>
+                                    Building rotorcraft and/or fixed-wing UAVs
+                                    for autonomous flight and waypoint
+                                    navigation, object detection, classification
+                                    and localization, and payload delivery to a
+                                    target.
+                                </p>
+                            </div>
+                            <span class="ledger-status">Active</span>
+                        </li>
+                        <li class="ledger-row">
+                            <span class="ledger-icon" aria-hidden="true">
+                                <i class="fa-solid fa-trophy"></i>
+                            </span>
+                            <div class="ledger-body">
+                                <h3>InRG Utility Solution Competition</h3>
+                                <p>
+                                    Developing wildfire-detection tools. Rules
+                                    are being finalized by Professor Mcbee -
+                                    we'll resume once they're released.
+                                </p>
+                            </div>
+                            <span class="ledger-status">Pending</span>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- ================= PROJECTS ================= -->
+            <section id="projects" class="section section-projects">
+                <div class="wrap">
+                    <div class="section-head">
+                        <h2>Projects</h2>
+                        <p>What's currently on the bench.</p>
+                    </div>
+
+                    <div class="project-row">
+                        <div class="project-frame" aria-hidden="true">
+                            <i class="fa-solid fa-car-side"></i>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-tag"
+                                >Rover &middot; autonomy</span
+                            >
+                            <h3>Autonomous Rover Project</h3>
+                            <p>
+                                Building an unmanned autonomous rover from the
+                                ground up - members work across hardware and
+                                electronics integration, software architecture,
+                                and navigation and AI.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-row project-row-reverse">
+                        <div class="project-frame" aria-hidden="true">
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-tag"
+                                >Vehicle &middot; autonomy</span
+                            >
+                            <h3>Autonomous Driving Golf Cart</h3>
+                            <p>
+                                A full-size self-driving golf cart, covering the
+                                same hardware, software, and navigation work as
+                                our other builds at a larger scale. LCOE
+                                students get to try it out and see autonomous
+                                capability firsthand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= KITS ================= -->
+            <section id="kits" class="section section-kits">
+                <div class="wrap">
+                    <div class="section-head">
+                        <h2>Kits</h2>
+                        <p>
+                            Starter hardware for members getting into drones or
+                            rovers - the same class of gear our project leads
+                            keep around.
+                        </p>
+                    </div>
+
+                    <div class="kit-group">
+                        <h3 class="kit-group-title">Drone kits</h3>
+                        <ul class="kit-list">
+                            <li class="kit-row">
+                                <div class="kit-info">
+                                    <span class="kit-name"
+                                        >Drone Kit #01 - Quadcopter</span
+                                    >
+                                    <span class="kit-note"
+                                        >Our standard first build - four rotors,
+                                        simplest to learn flight code on.</span
+                                    >
+                                </div>
+                                <a
+                                    class="kit-link"
+                                    href="https://www.amazon.com/s?k=quadcopter+drone+build+kit"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >View on Amazon</a
+                                >
+                            </li>
+                            <li class="kit-row">
+                                <div class="kit-info">
+                                    <span class="kit-name"
+                                        >Drone Kit #02 - Hexacopter</span
+                                    >
+                                    <span class="kit-note"
+                                        >Six rotors for extra lift and
+                                        redundancy - good next step after a quad
+                                        build.</span
+                                    >
+                                </div>
+                                <a
+                                    class="kit-link"
+                                    href="https://www.amazon.com/s?k=hexacopter+drone+build+kit"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >View on Amazon</a
+                                >
+                            </li>
+                            <li class="kit-row">
+                                <div class="kit-info">
+                                    <span class="kit-name"
+                                        >Drone Kit #03 - Fixed-Wing</span
+                                    >
+                                    <span class="kit-note"
+                                        >Longer-range, longer-endurance
+                                        flight.</span
+                                    >
+                                </div>
+                                <a
+                                    class="kit-link"
+                                    href="https://www.amazon.com/s?k=fixed+wing+RC+plane+build+kit"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >View on Amazon</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="kit-group">
+                        <h3 class="kit-group-title">Rover kits</h3>
+                        <ul class="kit-list">
+                            <li class="kit-row">
+                                <div class="kit-info">
+                                    <span class="kit-name"
+                                        >Raspberry Pi smart car kit</span
+                                    >
+                                    <span class="kit-note"
+                                        >Camera, ultrasonic sensor, and chassis
+                                        - the standard first rover build.</span
+                                    >
+                                </div>
+                                <a
+                                    class="kit-link"
+                                    href="https://www.amazon.com/s?k=Raspberry+Pi+smart+robot+car+kit"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >View on Amazon</a
+                                >
+                            </li>
+                            <li class="kit-row">
+                                <div class="kit-info">
+                                    <span class="kit-name"
+                                        >Arduino 4WD chassis kit</span
+                                    >
+                                    <span class="kit-note"
+                                        >Cheap, sturdy base for motor control
+                                        and sensor-fusion practice.</span
+                                    >
+                                </div>
+                                <a
+                                    class="kit-link"
+                                    href="https://www.amazon.com/s?k=Arduino+4WD+robot+car+chassis+kit"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >View on Amazon</a
+                                >
+                            </li>
+                            <li class="kit-row">
+                                <div class="kit-info">
+                                    <span class="kit-name"
+                                        >ROS-compatible rover</span
+                                    >
+                                    <span class="kit-note"
+                                        >For members moving into full navigation
+                                        stacks.</span
+                                    >
+                                </div>
+                                <a
+                                    class="kit-link"
+                                    href="https://www.amazon.com/s?k=ROS+compatible+robot+rover+kit"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >View on Amazon</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="contact" class="site-footer">
+            <div class="wrap footer-inner">
+                <div class="footer-main">
+                    <h2>Get in touch</h2>
+                    <p>
+                        Questions about joining or projects? Email us and we'll
+                        get back to you.
+                        <a
+                            class="footer-email"
+                            href="mailto:usrtfresno@gmail.com"
+                            >usrtfresno@gmail.com</a
+                        >
+                    </p>
+
+                    <div class="social-row">
+                        <a
+                            href="https://instagram.com/usrtfresno"
+                            class="social-link"
+                            aria-label="Instagram"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>@usrtfresno</span>
+                        </a>
+                        <a
+                            href="http://www.linkedin.com/in/usrtfresno"
+                            class="social-link"
+                            aria-label="LinkedIn"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a
+                            href="https://discord.gg/CagJGgkd8"
+                            class="social-link"
+                            aria-label="Discord"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <i class="fa-brands fa-discord"></i>
+                            <span>Join our Discord</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-meta">
+                    <p>
+                        IT 158, California State University, Fresno &middot;
+                        Lyles College of Engineering
+                    </p>
+                </div>
+            </div>
+
+            <div class="wrap footer-bottom">
+                <p>
+                    &copy; <span id="year">2026</span> Fresno State Unmanned
+                    Systems Research Team.
+                </p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
